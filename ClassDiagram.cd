@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdmItSystem.WinForms.DashboardForm">
+    <Position X="3.5" Y="1.75" Width="2" />
+    <Members>
+      <Field Name="btnAfdelinger" Hidden="true" />
+      <Method Name="btnAfdelinger_Click" Hidden="true" />
+      <Field Name="btnEksport" Hidden="true" />
+      <Method Name="btnEksport_Click" Hidden="true" />
+      <Field Name="btnKunder" Hidden="true" />
+      <Method Name="btnKunder_Click" Hidden="true" />
+      <Field Name="btnMarkedsanalyse" Hidden="true" />
+      <Method Name="btnMarkedsanalyse_Click" Hidden="true" />
+      <Field Name="btnMedarbejdere" Hidden="true" />
+      <Method Name="btnMedarbejdere_Click" Hidden="true" />
+      <Field Name="btnOversigt" Hidden="true" />
+      <Method Name="btnOversigt_Click" Hidden="true" />
+      <Field Name="comboBoxAfdeling" Hidden="true" />
+      <Method Name="comboBoxAfdeling_SelectedValueChanged" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="DashboardForm" Hidden="true" />
+      <Field Name="dashboardPanel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="edcPanel" Hidden="true" />
+      <Field Name="edcPictureBox" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="MainForm_Load" Hidden="true" />
+      <Field Name="navPanel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAgoAAQgiAApCAgBQCAEAADIAAAkAAEMAYDAAiACEE=</HashCode>
+      <FileName>DashboardForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmItSystem.WinForms.OversigtForm">
+    <Position X="5.75" Y="1.75" Width="3.25" />
+    <Members>
+      <Field Name="AfdelingId" Hidden="true" />
+      <Field Name="Afdelingsnavn" Hidden="true" />
+      <Field Name="arealDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="boligIdDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="boligtypeDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="btnStigende" Hidden="true" />
+      <Field Name="buttonAnvend" Hidden="true" />
+      <Field Name="buttonFaldende" Hidden="true" />
+      <Field Name="buttonFjern" Hidden="true" />
+      <Field Name="bynavnDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="checkBoxSolgt" Hidden="true" />
+      <Field Name="checkBoxTilSalg" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="controlPanel" Hidden="true" />
+      <Field Name="dataGridViewOversigt" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ejendomsmæglerDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="ejendomsmæglernavnDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="handelsdatoDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="handelsprisDataGridViewTextBoxColumn" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="køberDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="købernavnDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="labelHandelspris" Hidden="true" />
+      <Field Name="labelHandelsprisMinMax" Hidden="true" />
+      <Field Name="labelMax" Hidden="true" />
+      <Field Name="labelMin" Hidden="true" />
+      <Field Name="nummerDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="oversigtBindingSource" Hidden="true" />
+      <Field Name="oversigtPanel" Hidden="true" />
+      <Field Name="postnummerDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="sælgerDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="sælgernavnDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="textBoxMax" Hidden="true" />
+      <Field Name="textBoxMin" Hidden="true" />
+      <Field Name="tilSalgDataGridViewCheckBoxColumn" Hidden="true" />
+      <Field Name="vejnavnDataGridViewTextBoxColumn" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>DAgBAABQFDMhICAIQGjAEABCAAAKAEPAAxMqADAABAA=</HashCode>
+      <FileName>OversigtForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmItSystem.WinForms.RedigerBoligForm">
+    <Position X="9.25" Y="2.5" Width="2" />
+    <Members>
+      <Field Name="btnGem" Hidden="true" />
+      <Field Name="checkBoxAndelsbolig" Hidden="true" />
+      <Field Name="checkBoxHus" Hidden="true" />
+      <Field Name="checkBoxLejlighed" Hidden="true" />
+      <Field Name="checkBoxRækkehus" Hidden="true" />
+      <Field Name="checkBoxTilSalg" Hidden="true" />
+      <Field Name="comboBoxEjendomsmægler" Hidden="true" />
+      <Field Name="comboBoxKøber" Hidden="true" />
+      <Field Name="comboBoxSælger" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dateTimePickerHandelsdato" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelAreal" Hidden="true" />
+      <Field Name="labelBynavn" Hidden="true" />
+      <Field Name="labelEjendomsmægler" Hidden="true" />
+      <Field Name="labelHandelsdato" Hidden="true" />
+      <Field Name="labelHandelspris" Hidden="true" />
+      <Field Name="labelKøber" Hidden="true" />
+      <Field Name="labelNummer" Hidden="true" />
+      <Field Name="labelPostnummer" Hidden="true" />
+      <Field Name="labelRedigerBolig" Hidden="true" />
+      <Field Name="labelSælger" Hidden="true" />
+      <Field Name="labelTilSalg" Hidden="true" />
+      <Field Name="labelVejnavn" Hidden="true" />
+      <Field Name="textBoxAreal" Hidden="true" />
+      <Field Name="textBoxBynavn" Hidden="true" />
+      <Field Name="textBoxHandelspris" Hidden="true" />
+      <Field Name="textBoxNummer" Hidden="true" />
+      <Field Name="textBoxPostnummer" Hidden="true" />
+      <Field Name="textBoxVejnavn" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAwACAAgBEIEASIAAGCJESIAAwQAAGACiwEABQ=</HashCode>
+      <FileName>RedigerBoligForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmItSystem.Logic.AfdelingManager" Collapsed="true">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AdmItSystem.Logic.DashboardManager">
+    <Position X="3.5" Y="5.5" Width="2" />
+    <Members>
+      <Method Name="DashboardManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AdmItSystem.Logic.OversigtManager">
+    <Position X="8.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
